@@ -15,10 +15,9 @@ byte current_bank = 0; // Variable for current bank
 
 int buttonPin = 2;
 
-
 void setup() 
 {
-   pinMode(13, OUTPUT); // Set LED as output
+  pinMode(13, OUTPUT); // Set LED as output
 
   pinMode(buttonPin, INPUT_PULLUP); // Set button pin as input
 
